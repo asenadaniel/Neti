@@ -33,7 +33,7 @@ function Navbar() {
             onClick={() => setOpen(!open)}
           />
           {!open && <div className=' absolute top-[100%] right-0 w-max bg-gray-900 py-4 px-6 rounded z-10 underline'>
-            <p className=' text-[13px] cursor-pointer' onClick={() => logOut()}>Sign Out Of Netflix</p>
+            <p className=' text-[13px] cursor-pointer' onClick={() => logOut()}>Sign Out Of Neti</p>
           </div>}
         </div>
       </div>
