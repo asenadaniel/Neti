@@ -49,7 +49,7 @@ function Login() {
       :
       <div className=' h-[100vh] background py-[15px] md:py-5 px-[5%] md:px-[8%]'>
         <h1 className=' text-center md:text-left text-2xl text-red-600 font-bold'>
-          NETI
+          NetTrail
         </h1>
         <div className=' w-full max-w-[450px] backgroundrgba rounded p-16 mt-8 md:mt-0  m-auto'>
           <h1 className=' text-2xl font-medium mb-7'>{signState}</h1>
@@ -89,7 +89,7 @@ function Login() {
             </div>
           </form>
           <div className=' mt-10 text-[#737373]'>
-            {signState === 'Sign In' ? <p>New To Netflix? <span className=' ml-2 text-white font-medium cursor-pointer' onClick={() => setSignState('Sign Up')}>Sign Up Now</span></p> :
+            {signState === 'Sign In' ? <p>New To NetTrail? <span className=' ml-2 text-white font-medium cursor-pointer' onClick={() => setSignState('Sign Up')}>Sign Up Now</span></p> :
               <p>Already have an Account? <span className=' ml-2 text-white font-medium cursor-pointer' onClick={() => setSignState('Sign In')}>Sign In Now</span></p>
             }
           </div>

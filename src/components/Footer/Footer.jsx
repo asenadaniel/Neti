@@ -26,7 +26,7 @@ function Footer() {
         <li>Corporate Information</li>
         <li>Contact Us</li>
       </ul>
-      <p className=' text-gray-300  text-xs'> &copy; 1997-{currentYear} Neti, inc</p>
+      <p className=' text-gray-300  text-xs'> &copy; 1997-{currentYear} NetTrail, inc</p>
     </div>
   )
 }

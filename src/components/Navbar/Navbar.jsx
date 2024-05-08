@@ -11,7 +11,7 @@ function Navbar() {
     <div className=' w-full py-5 md:px-[8%] px-[4%] flex justify-between  text-[14px]  inset-0 bg-gradient-to-b from-transparent to-black z-10'>
       <div className=' flex items-center gap-14'>
         <h1 className=' text-xl lg:text-4xl text-red-600 font-bold'>
-          NETI
+          NetTrail
         </h1>
         <ul className=' lg:flex gap-5 hidden '>
           <li className=' cursor-pointer'>Home</li>
@@ -33,7 +33,7 @@ function Navbar() {
             onClick={() => setOpen(!open)}
           />
           {!open && <div className=' absolute top-[100%] right-0 w-max bg-gray-900 py-4 px-6 rounded z-10 underline'>
-            <p className=' text-[13px] cursor-pointer' onClick={() => logOut()}>Sign Out Of Neti</p>
+            <p className=' text-[13px] cursor-pointer' onClick={() => logOut()}>Sign Out Of NetTrail</p>
           </div>}
         </div>
       </div>
