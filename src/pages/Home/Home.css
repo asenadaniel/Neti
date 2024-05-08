@@ -1,0 +1,4 @@
+.custom-mask {
+  -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
+  mask-image: linear-gradient(to right, transparent, black 75%);
+}
