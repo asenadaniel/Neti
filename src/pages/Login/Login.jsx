@@ -80,16 +80,10 @@ function Login() {
               onChange={(e) => setPassword(e.target.value)}
             />
             <button type='submit' className=' w-full border-0 outline-0 p-4 mt-4 bg-red-700 font-medium rounded cursor-pointer ' onClick={userAuth}>{signState}</button>
-            <div className=' flex items-center justify-between text-[#b3b3b3] text-[14px] mt-6'>
-              <div className='flex items-center gap-3'>
-                <input type="checkbox" className=' h-4 w-4' />
-                <label htmlFor="">Remember Me</label>
-              </div>
-              <p>Need Help?</p>
-            </div>
+
           </form>
           <div className=' mt-10 text-[#737373]'>
-            {signState === 'Sign In' ? <p>New To NetTrail? <span className=' ml-2 text-white font-medium cursor-pointer' onClick={() => setSignState('Sign Up')}>Sign Up Now</span></p> :
+            {signState === 'Sign In' ? <p className='text-[13px]'>New To NetTrail? <span className=' ml-2 text-white font-medium cursor-pointer' onClick={() => setSignState('Sign Up')}>Sign Up Now</span></p> :
               <p>Already have an Account? <span className=' ml-2 text-white font-medium cursor-pointer' onClick={() => setSignState('Sign In')}>Sign In Now</span></p>
             }
           </div>
