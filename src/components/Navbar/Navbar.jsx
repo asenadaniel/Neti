@@ -23,9 +23,14 @@ function Navbar() {
       </div>
 
       <div className=' flex gap-5 items-center'>
-        <Search className=' cursor-pointer' />
-        <p className=' cursor-pointer'>Children</p>
-        <Notifications className=' cursor-pointer' />
+        <div className=' hidden md:block'>
+          <Search className=' cursor-pointer' />
+        </div>
+        <p className=' cursor-pointer hidden md:block'>Children</p>
+        <div className='hidden md:block'>
+
+          <Notifications className=' cursor-pointer  ' />
+        </div>
 
         <div className=' flex items-center gap-3 relative'>
           <img src={profile_img} alt="" className=' cursor-pointer' />

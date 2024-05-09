@@ -33,7 +33,7 @@ function Home() {
       </div>
       <div className=' pl-[6%]'>
         <TitleCards title={'Blockbusters Movies'} category={'now_playing'} />
-        <TitleCards title={'Only on Neti'} category={'upcoming'} />
+        <TitleCards title={'Only on NetTrail'} category={'upcoming'} />
         <TitleCards title={'Upcoming'} category={'popular'} />
         <TitleCards title={'Top Picks for You'} category={'top_rated'} />
       </div>
