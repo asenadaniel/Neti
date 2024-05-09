@@ -84,7 +84,7 @@ function Login() {
           </form>
           <div className=' mt-10 text-[#737373]'>
             {signState === 'Sign In' ? <p className='text-[13px]'>New To NetTrail? <span className=' ml-2 text-white font-medium cursor-pointer' onClick={() => setSignState('Sign Up')}>Sign Up Now</span></p> :
-              <p>Already have an Account? <span className=' ml-2 text-white font-medium cursor-pointer' onClick={() => setSignState('Sign In')}>Sign In Now</span></p>
+              <p className='text-[13px]'>Already have an Account? <span className=' ml-2 text-white font-medium cursor-pointer' onClick={() => setSignState('Sign In')}>Sign In Now</span></p>
             }
           </div>
         </div>
